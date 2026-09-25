@@ -9,14 +9,12 @@
 |* git status | See repository status
 ---
 
-<!-- UL -->
 | Task 1-2 | Description |
 |----------|----------|
 |* git commit -m "First commit" | Saves the staged changes to the local Git repository
 |* git remote add origin " URLhttps:// " | Connects to GitHub
 |* git push -u origin main | Pushes changes to GitHub.
 ---
-
 
 | Task 1-3 | Description |
 |----------|----------|
@@ -28,3 +26,14 @@
 |* git commit -m "added Second.txt" | Saves the staged changes
 |* git push | Pushes changes to GitHub
 ---
+
+| Task 1-4 | Description |
+|----------|----------|
+|echo ******* > .env| Secret text that will not be uploaded
+|echo .env > .gitignore| Secret file enters .gitignore
+|git add .gitignore| Stages the file
+|git commit -m "Password for personal use"| Saves the staged changes
+---
+
+
+
