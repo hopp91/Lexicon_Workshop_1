@@ -20,7 +20,7 @@
 |----------|----------|
 |* echo "First.txt" > First.txt | Created .txt
 |* echo "Second.txt" > Second.txt | Created .txt
-|* echo "Updated information to Second.txt" >> Second.txt | updated information to second .txt
+|* echo "Updated information to Second.txt" >> Second.txt | Updated information to second .txt
 |* git add .| Stages the files.
 |* git commit -m "added first.txt" | Saves the staged changes
 |* git commit -m "added Second.txt" | Saves the staged changes
@@ -29,10 +29,18 @@
 
 | Task 1-4 | Description |
 |----------|----------|
-|echo ******* > .env| Secret text that will not be uploaded
-|echo .env > .gitignore| Secret file enters .gitignore
-|git add .gitignore| Stages the file
-|git commit -m "Password for personal use"| Saves the staged changes
+|* echo ******* > .env| Secret text that will not be uploaded
+|* echo .env > .gitignore| Secret file enters .gitignore
+|* git add .gitignore| Stages the file
+|* git commit -m "Password for personal use"| Saves the staged changes
+---
+
+| Task 2 | Description |
+|----------|----------|
+|* git clone https://github.com/Lexicon-Smaland/Hello-World | Cloned Lexicon repositary
+|* git remote set-url origin https://github.com/hopp91/Lexicon_Workshop_1 | Change the remote
+|* git remote -v | Checked remote so its pointed correct
+|* echo cloned a repository >> First.txt | Added information to first.txt 
 ---
 
 
